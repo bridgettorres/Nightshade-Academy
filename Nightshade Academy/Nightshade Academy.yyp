@@ -34,7 +34,9 @@
   },
   "name":"Nightshade Academy",
   "resources":[
+    {"id":{"name":"obj_mc","path":"objects/obj_mc/obj_mc.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_mc","path":"sprites/spr_mc/spr_mc.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
