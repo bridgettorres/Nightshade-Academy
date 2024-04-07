@@ -16,5 +16,10 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"spr_class","order":2,"path":"sprites/spr_class/spr_class.yy",},
+    {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
+  ],
 }
