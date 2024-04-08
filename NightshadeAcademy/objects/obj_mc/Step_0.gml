@@ -8,7 +8,8 @@
 
 //collisions
 //move_and_collide(x * walkSpeed, y * walkSpeed, obj_wall)
-
+var prev_x = x;
+var prev_y = y;
 
 if(keyboard_check(ord("D")) or keyboard_check(vk_right)) {
 	x += walkSpeed;
@@ -43,4 +44,10 @@ if(keyboard_check(vk_nokey)){
 if(keyboard_check(vk_shift)){
 	walkSpeed = 7;
 }
-	
+
+if place_meeting( x, y, obj_wall){
+	x = prev_x;
+	y = prev_y;
+}
+
+
