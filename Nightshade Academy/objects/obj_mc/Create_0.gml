@@ -1,6 +1,2 @@
-x = 0;
-y = 0;
-move_spd = 1;
-
-
+my_speed = 4;
 

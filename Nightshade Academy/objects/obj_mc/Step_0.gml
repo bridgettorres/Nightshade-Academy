@@ -1,52 +1,10 @@
-//Movements made with keyboard
-if(keyboard_check(ord("W"))) {
-	y -= move_spd
-	image_speed = move_spd / 3;
-	image_index +=1;
-	
-	if (image_index >= 11){
-		image_index = 8;
-	}
-}
+var _right = keyboard_check(vk_right) or keyboard_check(ord("D"));
+var _left = keyboard_check(vk_left) or keyboard_check(ord("A"));
+var _up = keyboard_check(vk_up) or keyboard_check(ord("W"));
+var _down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 
-if(keyboard_check(ord("D"))) {
-	x += move_spd
-	image_speed = move_spd / 3;
-	image_index +=1;
-	
-	if (image_index >= 16){
-		image_index = 12;
-	}
-}
-
-if(keyboard_check(ord("S"))) {
-	y += move_spd
-	image_speed = move_spd / 3;
-	image_index +=1;
-	
-	if (image_index >= 8){
-		image_index = 4;
-	}
-}
-
-
-if(keyboard_check(ord("A"))) {
-	x -= move_spd
-	image_speed = move_spd / 3;
-	image_index +=1;
-	
-	if (image_index >= 20){
-		image_index = 16;
-	}
-}
-
-if(keyboard_check(vk_nokey)){
-	image_speed = 0;
-	image_index += 1;
-	
-	if (image_index >= 5){
-		image_index = 0;
-	} 
-}
+var _xinput = _right - _left;
+var _yinput = _down - _up;
 
 //collisions
+move_and_collide(_xinput * my_speed, _yinput * my_speed, obj_wall)
