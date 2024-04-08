@@ -8,6 +8,7 @@
 
 //collisions
 //move_and_collide(x * walkSpeed, y * walkSpeed, obj_wall)
+
 var prev_x = x;
 var prev_y = y;
 
