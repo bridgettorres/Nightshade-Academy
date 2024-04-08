@@ -7,7 +7,7 @@
 //var _yinput = _down - _up;
 
 //collisions
-move_and_collide(x * walkSpeed, y * walkSpeed, obj_wall)
+//move_and_collide(x * walkSpeed, y * walkSpeed, obj_wall)
 
 
 if(keyboard_check(ord("D")) or keyboard_check(vk_right)) {
