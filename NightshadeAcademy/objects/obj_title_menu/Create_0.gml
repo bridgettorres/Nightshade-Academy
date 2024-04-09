@@ -1,3 +1,4 @@
+depth = -800;
 width = 64;
 height = 104;
 //distance of text from border
