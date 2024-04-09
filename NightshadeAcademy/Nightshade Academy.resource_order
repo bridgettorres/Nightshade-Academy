@@ -20,6 +20,8 @@
   "ResourceOrderSettings":[
     {"name":"obj_title_menu","order":2,"path":"objects/obj_title_menu/obj_title_menu.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"obj_lunchlady","order":2,"path":"objects/obj_lunchlady/obj_lunchlady.yy",},
+    {"name":"LunchRoom","order":2,"path":"rooms/LunchRoom/LunchRoom.yy",},
     {"name":"rm_title_screen","order":3,"path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"book_open_blue","order":57,"path":"sprites/book_open_blue/book_open_blue.yy",},
