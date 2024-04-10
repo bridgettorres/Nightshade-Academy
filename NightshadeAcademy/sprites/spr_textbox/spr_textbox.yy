@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"StartScene",
-    "path":"folders/StartScene.yy",
+    "name":"Dialogue System",
+    "path":"folders/Dialogue System.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
