@@ -1,17 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_alarmclock",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_alarm",
+  "eventList":[],
   "managed":true,
-  "name":"obj_alarmclock",
+  "name":"obj_alarm",
   "overriddenProperties":[],
   "parent":{
-    "name":"StartScene",
-    "path":"folders/StartScene.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
