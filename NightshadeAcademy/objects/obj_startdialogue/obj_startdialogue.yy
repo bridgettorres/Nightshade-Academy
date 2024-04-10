@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sickRoommate",
+  "%Name":"obj_startdialogue",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_mc_pj","path":"objects/obj_mc_pj/obj_mc_pj.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_sickRoommate",
+  "name":"obj_startdialogue",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"StartScene",
+    "path":"folders/StartScene.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_sickRoommate",
-    "path":"sprites/spr_npc_sickRoommate/spr_npc_sickRoommate.yy",
+    "name":"spr_dummy",
+    "path":"sprites/spr_dummy/spr_dummy.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
