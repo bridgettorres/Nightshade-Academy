@@ -16,24 +16,49 @@ if(keyboard_check(ord("D")) or keyboard_check(vk_right)) {
 	x += walkSpeed;
 	image_speed = walkSpeed / 3;
 	sprite_index = spr_mc_walkRight;
+	
+	//var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
+	//var _yinput = keyboard_check(vk_down) - keyboard_check(vk_up);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_wall);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_bookself_9_full);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_bookself_hori1_unorganized);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_bookshelf_hori1_organized);
 }
 
 if(keyboard_check(ord("A")) or keyboard_check(vk_left)) {
 	x -= walkSpeed;
 	image_speed = walkSpeed / 3;
 	sprite_index = spr_mc_walkLeft;
+	//var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
+	//var _yinput = keyboard_check(vk_down) - keyboard_check(vk_up);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_wall);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_bookself_9_full);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_bookself_hori1_unorganized);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_bookshelf_hori1_organized);
 }
 
 if(keyboard_check(ord("S")) or keyboard_check(vk_down)) {
 	y += walkSpeed;
 	image_speed = walkSpeed / 3;
 	sprite_index = spr_mc_walkDown;
+	//var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
+	//var _yinput = keyboard_check(vk_down) - keyboard_check(vk_up);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_wall);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_bookself_9_full);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_bookself_hori1_unorganized);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_bookshelf_hori1_organized);
 }
 
 if(keyboard_check(ord("W")) or keyboard_check(vk_up)) {
 	y -= walkSpeed;
 	image_speed = walkSpeed / 3;
 	sprite_index = spr_mc_walkUp;
+	//var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
+	//var _yinput = keyboard_check(vk_down) - keyboard_check(vk_up);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_wall);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_bookself_9_full);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_bookself_hori1_unorganized);
+	//move_and_collide(_xinput * walkSpeed, _yinput, obj_bookshelf_hori1_organized);
 }
 
 if(keyboard_check(vk_nokey)){
@@ -51,4 +76,6 @@ if place_meeting( x, y, obj_wall){
 	y = prev_y;
 }
 
+//depth 
+depth = -bbox_bottom;
 
