@@ -51,6 +51,7 @@
     {"name":"obj_willow","order":14,"path":"objects/obj_willow/obj_willow.yy",},
     {"name":"obj_sickRoommate","order":28,"path":"objects/obj_sickRoommate/obj_sickRoommate.yy",},
     {"name":"DormRoom","order":1,"path":"rooms/DormRoom/DormRoom.yy",},
+    {"name":"obj_alarmclock","order":3,"path":"objects/obj_alarmclock/obj_alarmclock.yy",},
     {"name":"LunchRoom","order":2,"path":"rooms/LunchRoom/LunchRoom.yy",},
     {"name":"rm_title_screen","order":3,"path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"Room6","order":3,"path":"rooms/Room6/Room6.yy",},
