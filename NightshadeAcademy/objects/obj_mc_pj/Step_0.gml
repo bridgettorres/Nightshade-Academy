@@ -15,7 +15,7 @@ var prev_y = y;
 if(keyboard_check(ord("D")) or keyboard_check(vk_right)) {
 	x += walkSpeed;
 	image_speed = walkSpeed / 3;
-	sprite_index = spr_mc_walkRight;
+	sprite_index = spr_mc_pj_right;
 	
 	//var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
 	//var _yinput = keyboard_check(vk_down) - keyboard_check(vk_up);
@@ -28,7 +28,7 @@ if(keyboard_check(ord("D")) or keyboard_check(vk_right)) {
 if(keyboard_check(ord("A")) or keyboard_check(vk_left)) {
 	x -= walkSpeed;
 	image_speed = walkSpeed / 3;
-	sprite_index = spr_mc_walkLeft;
+	sprite_index = spr_mc_pj_left;
 	//var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
 	//var _yinput = keyboard_check(vk_down) - keyboard_check(vk_up);
 	//move_and_collide(_xinput * walkSpeed, _yinput, obj_wall);
@@ -40,7 +40,7 @@ if(keyboard_check(ord("A")) or keyboard_check(vk_left)) {
 if(keyboard_check(ord("S")) or keyboard_check(vk_down)) {
 	y += walkSpeed;
 	image_speed = walkSpeed / 3;
-	sprite_index = spr_mc_walkDown;
+	sprite_index = spr_mc_pj_front;
 	//var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
 	//var _yinput = keyboard_check(vk_down) - keyboard_check(vk_up);
 	//move_and_collide(_xinput * walkSpeed, _yinput, obj_wall);
@@ -52,7 +52,7 @@ if(keyboard_check(ord("S")) or keyboard_check(vk_down)) {
 if(keyboard_check(ord("W")) or keyboard_check(vk_up)) {
 	y -= walkSpeed;
 	image_speed = walkSpeed / 3;
-	sprite_index = spr_mc_walkUp;
+	sprite_index = spr_mc_pj_back;
 	//var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
 	//var _yinput = keyboard_check(vk_down) - keyboard_check(vk_up);
 	//move_and_collide(_xinput * walkSpeed, _yinput, obj_wall);
