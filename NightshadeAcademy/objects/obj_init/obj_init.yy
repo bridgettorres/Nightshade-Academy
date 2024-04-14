@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_letter",
+  "%Name":"obj_init",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_mc","path":"objects/obj_mc/obj_mc.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_letter",
+  "name":"obj_init",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dorm",
-    "path":"folders/Dorm.yy",
+    "name":"StartScene",
+    "path":"folders/StartScene.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"letter",
-    "path":"sprites/letter/letter.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
