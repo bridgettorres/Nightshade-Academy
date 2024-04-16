@@ -218,8 +218,6 @@
     {"name":"sign_wed","order":71,"path":"sprites/sign_wed/sign_wed.yy",},
     {"name":"spr_class","order":2,"path":"sprites/spr_class/spr_class.yy",},
     {"name":"spr_door","order":93,"path":"sprites/spr_door/spr_door.yy",},
-
-  
     {"name":"spr_dummy","order":4,"path":"sprites/spr_dummy/spr_dummy.yy",},
     {"name":"spr_janitor_back","order":9,"path":"sprites/spr_janitor_back/spr_janitor_back.yy",},
     {"name":"spr_janitor_front","order":8,"path":"sprites/spr_janitor_front/spr_janitor_front.yy",},
@@ -261,12 +259,12 @@
     {"name":"spr_textbox","order":2,"path":"sprites/spr_textbox/spr_textbox.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"bed_unmade","order":126,"path":"sprites/bed_unmade/bed_unmade.yy",},
+    {"name":"spr_textbox_arrow","order":5,"path":"sprites/spr_textbox_arrow/spr_textbox_arrow.yy",},
     {"name":"studentDesk","order":25,"path":"sprites/studentDesk/studentDesk.yy",},
     {"name":"teacher_chem","order":90,"path":"sprites/teacher_chem/teacher_chem.yy",},
     {"name":"teacher_facs","order":91,"path":"sprites/teacher_facs/teacher_facs.yy",},
     {"name":"teacher_homeroom","order":89,"path":"sprites/teacher_homeroom/teacher_homeroom.yy",},
     {"name":"teacher_math","order":92,"path":"sprites/teacher_math/teacher_math.yy",},
     {"name":"teachersDesk","order":21,"path":"sprites/teachersDesk/teachersDesk.yy",},
-    {"name":"spr_textbox_arrow","order":5,"path":"sprites/spr_textbox_arrow/spr_textbox_arrow.yy",},
   ],
 }
