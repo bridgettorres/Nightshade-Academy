@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"Script1",
+  "%Name":"ChatterboxAddFindReplace",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script1",
+  "name":"ChatterboxAddFindReplace",
   "parent":{
-    "name":"Dialogue System",
-    "path":"folders/Dialogue System.yy",
+    "name":"Setup",
+    "path":"folders/Chatterbox/Setup.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
