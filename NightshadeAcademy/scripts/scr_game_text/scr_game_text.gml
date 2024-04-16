@@ -2,28 +2,12 @@
 function scr_game_text(_text_id){
 	switch(_text_id){
 		
-		case "Bri":
-		scr_text("...");
+		case "hmr_teacher":
+			scr_text("Since you're new here, I thought we'd test your knowledge of our lovely boarding school.");
+			scr_text("First question, What year was this school founded?");
+				scr_option("Um, How should I know", "This is a simple question... This is why we shouldn't allow lottery kids into this school.");
+				scr_option("---insert year---", "Good. Next Question, What is our headmistresses name?");
 			break;
 			
-		case "Cam":
-		scr_text("You got admission through the raffle right? Me too! I’m so excited for our first day");
-			break;
-			
-		case "Tania":
-		scr_text("...");
-			break;
-			
-		case "Willow":
-		scr_text("Hi! I Like Shorts! They’re Comfy And Easy To Wear!");
-			break;
-			
-		case "Mya":
-		scr_text("Why are we here ? I hate school.");
-			break;
-			
-		case "Viki":
-		scr_text("...");
-			break;
 }
 }
