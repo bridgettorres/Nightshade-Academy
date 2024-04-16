@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"nightstand_2",
+    "path":"sprites/nightstand_2/nightstand_2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

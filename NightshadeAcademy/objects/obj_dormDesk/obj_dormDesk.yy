@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"dorm_desk",
+    "path":"sprites/dorm_desk/dorm_desk.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
