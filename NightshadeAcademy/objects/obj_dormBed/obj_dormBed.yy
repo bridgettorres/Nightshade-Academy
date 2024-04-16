@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"bed_made",
+    "path":"sprites/bed_made/bed_made.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
