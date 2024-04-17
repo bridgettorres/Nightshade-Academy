@@ -1,0 +1,1 @@
+global.spacebar_count = 0;
