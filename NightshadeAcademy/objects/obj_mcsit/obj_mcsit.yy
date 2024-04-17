@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_studentDesk",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_mcsit",
+  "eventList":[],
   "managed":true,
-  "name":"obj_studentDesk",
+  "name":"obj_mcsit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"HomeRoom",
+    "path":"folders/HomeRoom.yy",
   },
-  "parentObjectId":{
-    "name":"obj_wall",
-    "path":"objects/obj_wall/obj_wall.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"studentDesk",
-    "path":"sprites/studentDesk/studentDesk.yy",
+    "name":"spr_mc_walkUp",
+    "path":"sprites/spr_mc_walkUp/spr_mc_walkUp.yy",
   },
   "spriteMaskId":null,
   "visible":true,
