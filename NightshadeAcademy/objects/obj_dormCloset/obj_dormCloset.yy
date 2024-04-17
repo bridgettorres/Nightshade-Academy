@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"dorm_closet",
+    "path":"sprites/dorm_closet/dorm_closet.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
