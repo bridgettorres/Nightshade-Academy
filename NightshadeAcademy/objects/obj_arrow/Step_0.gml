@@ -3,6 +3,6 @@ if (keyboard_check_pressed(vk_space)) {
 }
 
 
-if (!visible && global.spacebar_count >= 16) {
+if (!visible && global.spacebar_count >= 14) {
         visible = true;
         }
