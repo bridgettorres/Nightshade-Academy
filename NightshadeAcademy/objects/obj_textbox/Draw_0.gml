@@ -1,6 +1,7 @@
 accept_key = keyboard_check_pressed(vk_space);
 textbox_x = camera_get_view_x(view_camera[0]);
-textbox_y = camera_get_view_x(view_camera[0]) + 200; //move textbox down
+textbox_y = camera_get_view_y(view_camera[0]) + 200; //move textbox down
+setup = false;
 
 //setup
 if setup == false
@@ -8,7 +9,7 @@ if setup == false
 	setup = true;
 	draw_set_font(global.font_main);
 	draw_set_valign(fa_top);
-	draw_set_valign(fa_left);
+	draw_set_halign(fa_left);
 	
 	//loop through the pages
 	for(var p = 0; p < page_number; p++){
@@ -69,7 +70,7 @@ draw_sprite_ext(txtb_spr, txtb_img, _txtb_x, _txtb_y, textbox_width/txtb_spr_w, 
 
 //options
 if draw_char == text_length[page] && page == page_number - 1{
-	option_pos += keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
+	option_pos += keyboard_check(ord("E")) - keyboard_check(ord("Q"));
 	option_pos = clamp(option_pos, 0, option_number-1);
 	var _op_space = 15;
 	var _op_bord = 4;
