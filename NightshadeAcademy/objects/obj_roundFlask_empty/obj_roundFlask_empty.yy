@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"roundFlask_empty",
+    "path":"sprites/roundFlask_empty/roundFlask_empty.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
