@@ -1,3 +1,3 @@
-target_x = 576;
+target_x = 22;
 target_y = 160;
-target_rm = HomeRoom;
+target_rm = hallway1;
