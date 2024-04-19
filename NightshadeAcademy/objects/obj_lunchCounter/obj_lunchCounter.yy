@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_lunchTray",
+  "%Name":"obj_lunchCounter",
   "eventList":[],
   "managed":true,
-  "name":"obj_lunchTray",
+  "name":"obj_lunchCounter",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"lunchTray",
-    "path":"sprites/lunchTray/lunchTray.yy",
+    "name":"lunchCounter",
+    "path":"sprites/lunchCounter/lunchCounter.yy",
   },
   "spriteMaskId":null,
   "visible":true,
