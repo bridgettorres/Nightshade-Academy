@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"spr_mc_pj_front",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":69,
   "bbox_left":0,
   "bbox_right":49,
-  "bbox_top":2,
+  "bbox_top":50,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
