@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tania",
+  "%Name":"obj_mcdesk",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tania",
+  "name":"obj_mcdesk",
   "overriddenProperties":[],
   "parent":{
-    "name":"HomeRoom",
-    "path":"folders/HomeRoom.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_wall",
+    "path":"objects/obj_wall/obj_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_tania_back",
-    "path":"sprites/spr_npc_tania_back/spr_npc_tania_back.yy",
+    "name":"studentDesk",
+    "path":"sprites/studentDesk/studentDesk.yy",
   },
   "spriteMaskId":null,
   "visible":true,
