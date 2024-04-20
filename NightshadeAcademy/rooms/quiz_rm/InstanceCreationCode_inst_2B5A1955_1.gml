@@ -1,1 +1,0 @@
-text_id = "hmr_test"
