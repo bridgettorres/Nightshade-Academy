@@ -36,7 +36,6 @@
     {"name":"obj_alarmclock","order":3,"path":"objects/obj_alarmclock/obj_alarmclock.yy",},
     {"name":"obj_arrow","order":10,"path":"objects/obj_arrow/obj_arrow.yy",},
     {"name":"obj_awsd","order":6,"path":"objects/obj_awsd/obj_awsd.yy",},
-    {"name":"obj_beaker_darkPurple","order":38,"path":"objects/obj_beaker_darkPurple/obj_beaker_darkPurple.yy",},
     {"name":"obj_beaker_empty","order":37,"path":"objects/obj_beaker_empty/obj_beaker_empty.yy",},
     {"name":"obj_beaker_rainbow","order":36,"path":"objects/obj_beaker_rainbow/obj_beaker_rainbow.yy",},
     {"name":"obj_book_open_blue","order":50,"path":"objects/obj_book_open_blue/obj_book_open_blue.yy",},
