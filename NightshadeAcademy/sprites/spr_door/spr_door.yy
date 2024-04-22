@@ -19,7 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"76ddba3e-6087-4ce4-8d11-cc4240f080da","blendMode":0,"displayName":"default","isLocked":false,"name":"76ddba3e-6087-4ce4-8d11-cc4240f080da","opacity":37.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"76ddba3e-6087-4ce4-8d11-cc4240f080da","blendMode":0,"displayName":"default","isLocked":false,"name":"76ddba3e-6087-4ce4-8d11-cc4240f080da","opacity":1.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_door",
   "nineSlice":null,
