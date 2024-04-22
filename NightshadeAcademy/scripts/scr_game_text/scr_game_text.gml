@@ -2,6 +2,10 @@
 function scr_game_text(_text_id){
     switch(_text_id){
 		//----------------DORM-------------------//
+		case "alarm":
+			scr_text("I should really go and wake up my roommate, but let me not forget to get dressed!");
+        break;
+		
         case "letter":
             scr_text("Hi Sweetie, \n\n" + "I know staying away from home can be scary, but you can do this! Just because you got in through the raffle does not make you any less worthy than the selected kids. You have so much unrealized potential, you're smart just like your father... \n\n" + "Press Space to Continue");
             scr_text("...hopefully that's the only way you're like him. I know I won't be hearing from you for a while because of the school's policies, remember, dear, boarding school is for those who can't quite manage at home. Just kidding! Have a fantastic time my little genius. Don't forget to write back when you can. Good Luck! I am so excited for you. \n\n" + "Love, Mom");
@@ -9,34 +13,39 @@ function scr_game_text(_text_id){
 		//----------------HomeRoom -------------------//
 		//each student
 		case "bri":
-			scr_text("What were we talking about?");
+			scr_text("Bri: What were we talking about?");
 		break;
 		
 		case "cam":
-			scr_text("...");
+			scr_text("Cam: That salad is so gross and makes me sick to my stomach.");
 		break;
 		
 		case "tania":
-			scr_text("I like trains.");
+			scr_text("Tania: I like trains.");
 		break;
 		
 		case "willow":
-			scr_text("Hi! I Like Shorts! They’re Comfy And Easy To Wear!");
+			scr_text("Willow: Hi! I Like Shorts! They’re Comfy And Easy To Wear!");
 		break;
 		
 		case "mya":
-			scr_text("Why are we here ? I hate school.");
+			scr_text("Mya: Why are we here ? I hate school.");
 		break;
 		
 		case "viki":
-			scr_text("Why are we here ? I hate school.");
+			scr_text("Viki: I don't knowww ");
 		break;
-		//home room
+		
+		case "pet":
+			scr_text("Teachers Pet: Be quiet, so others can hear !");
+		break;
+			
 		case "hmr_teacher":
 			scr_text("Homeroom Teacher: Good morning students, please sit down and listen to the announcements!");
 			scr_text("Bri: I hate the announcements, they suck!");
 			scr_text("Teacher's pet: Be quiet, so others can hear! HEY RAFFLE KID GO TO YOUR SEAT");
 		break;
+
 		//class announcement and icebreaker announcement
 		case "class_announcement":
 			scr_text("Principal Announcement: Good morning and welcome, students of Nightshade Academy! \n" + "We have a few announcements before you start your day. \n\n" + "Press Space to Continue");
