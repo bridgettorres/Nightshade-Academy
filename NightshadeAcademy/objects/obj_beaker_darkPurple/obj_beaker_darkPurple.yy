@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"beaker_darkPurple",
-    "path":"sprites/beaker_darkPurple/beaker_darkPurple.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
