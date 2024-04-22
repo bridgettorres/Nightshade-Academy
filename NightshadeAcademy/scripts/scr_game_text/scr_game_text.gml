@@ -63,25 +63,25 @@ function scr_game_text(_text_id){
 		case "icebreaker_teacher":
 			scr_text("Homeroom Teacher: Alright, student lets start the questioning");
 			scr_text("What is our schools graduation rate?")
-				scr_option("20 percent", "npc 1 - 20");
-				scr_option("40 percent", "npc 1 - 40");
+				scr_option("20 percent", "mc1 - 20");
+				scr_option("40 percent", "mc1 - 40");
 		break;
-			case "npc 1 - 20":
+			case "mc1 - 20":
 				scr_text("Good next question, what is our phone policy?");
-					scr_option("no phones allowed", "npc 1 - nophone");
-					scr_option("we can use our phones", "npc 1 - yesphone");
+					scr_option("no phones allowed", "mc1 - nophone");
+					scr_option("we can use our phones", "mc1 - yesphone");
 			break;
 			
-			case "npc 1 - 40":
+			case "mc1 - 40":
 				scr_text("You clearly weren't listening... next question, what is our phone policy?");
-					scr_option("no phones allowed", "npc 1 - nophone");
-					scr_option("we can use our phones", "npc 1 - yesphone");
+					scr_option("no phones allowed", "mc1 - nophone");
+					scr_option("we can use our phones", "mc1 - yesphone");
 			break;
-				case "npc 1 - nophone":
+				case "mc1 - nophone":
 					scr_text("CORRECT");
 				break;
 				
-				case "npc 1 - yesphone":
+				case "mc1 - yesphone":
 					scr_text("IDIOT");
 				break;
 				
