@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_alarm",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_arrows",
+  "eventList":[],
   "managed":true,
-  "name":"obj_alarm",
+  "name":"obj_arrows",
   "overriddenProperties":[],
   "parent":{
     "name":"Dorm",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"alarm_clock",
-    "path":"sprites/alarm_clock/alarm_clock.yy",
+    "name":"spr_arrows",
+    "path":"sprites/spr_arrows/spr_arrows.yy",
   },
   "spriteMaskId":null,
   "visible":true,
