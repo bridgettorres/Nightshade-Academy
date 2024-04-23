@@ -21,7 +21,7 @@ if place_meeting(x, y + _yinput, obj_wall){
 
 if(keyboard_check(ord("D")) or keyboard_check(vk_right)) {
 	x += _xinput;
-	image_speed = walkSpeed / 3;
+	image_speed = 1;
 	sprite_index = spr_mc_walkRight;
 	
 	//var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
@@ -34,7 +34,7 @@ if(keyboard_check(ord("D")) or keyboard_check(vk_right)) {
 
 if(keyboard_check(ord("A")) or keyboard_check(vk_left)) {
 	x += _xinput;
-	image_speed = walkSpeed / 3;
+	image_speed = 1;
 	sprite_index = spr_mc_walkLeft;
 	//var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
 	//var _yinput = keyboard_check(vk_down) - keyboard_check(vk_up);
@@ -46,7 +46,7 @@ if(keyboard_check(ord("A")) or keyboard_check(vk_left)) {
 
 if(keyboard_check(ord("S")) or keyboard_check(vk_down)) {
 	y += _yinput;
-	image_speed = walkSpeed / 3;
+	image_speed = 1;
 	sprite_index = spr_mc_walkDown;
 	//var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
 	//var _yinput = keyboard_check(vk_down) - keyboard_check(vk_up);
@@ -58,7 +58,7 @@ if(keyboard_check(ord("S")) or keyboard_check(vk_down)) {
 
 if(keyboard_check(ord("W")) or keyboard_check(vk_up)) {
 	y += _yinput;
-	image_speed = walkSpeed / 3;
+	image_speed = 1;
 	sprite_index = spr_mc_walkUp;
 	//var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
 	//var _yinput = keyboard_check(vk_down) - keyboard_check(vk_up);
@@ -71,11 +71,11 @@ if(keyboard_check(ord("W")) or keyboard_check(vk_up)) {
 if(keyboard_check(vk_nokey)){
 	image_index = 0;
 	image_speed = 0;
-	walkSpeed = 3.5;
+	walkSpeed = 3;
 }
 
 if(keyboard_check(vk_shift)){
-	walkSpeed = 7;
+	walkSpeed = 5;
 }
 
 //if place_meeting( x, y, obj_wall){
