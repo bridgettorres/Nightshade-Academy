@@ -1,6 +1,6 @@
 accept_key = keyboard_check_pressed(vk_space);
-textbox_x = camera_get_view_x(view_camera[0]);
-textbox_y = camera_get_view_y(view_camera[0]) + 200; //move textbox down
+textbox_x = camera_get_view_x(view_camera[0]) + 115;
+textbox_y = camera_get_view_y(view_camera[0]) + 230; //move textbox down
 setup = false;
 
 //setup
