@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":232,
   "bbox_left":0,
-  "bbox_right":639,
+  "bbox_right":548,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8628e311-3849-4207-9aaa-292bf02516a9","name":"8628e311-3849-4207-9aaa-292bf02516a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"485492ed-1170-40c0-979e-f26ec8df2987","name":"485492ed-1170-40c0-979e-f26ec8df2987","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":257,
+  "height":234,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d8867201-fbf1-4221-95a3-db05ba4341b0","blendMode":0,"displayName":"default","isLocked":false,"name":"d8867201-fbf1-4221-95a3-db05ba4341b0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ae858cd6-ca93-4dda-8005-2d7939a3a6db","blendMode":0,"displayName":"default","isLocked":false,"name":"ae858cd6-ca93-4dda-8005-2d7939a3a6db","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"hallway_with_lockers",
   "nineSlice":null,
-  "origin":4,
+  "origin":0,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8628e311-3849-4207-9aaa-292bf02516a9","path":"sprites/hallway_with_lockers/hallway_with_lockers.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"92bec994-bc8d-476f-9dbb-2111b4f4433e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"485492ed-1170-40c0-979e-f26ec8df2987","path":"sprites/hallway_with_lockers/hallway_with_lockers.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9371dac6-d0d1-436d-a6b8-d91cf3e88e66","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":321,
-    "yorigin":128,
+    "xorigin":0,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":643,
+  "width":550,
 }
