@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc_senior",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_mcsitmath",
+  "eventList":[],
   "managed":true,
-  "name":"obj_npc_senior",
+  "name":"obj_mcsitmath",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"MathRoom",
+    "path":"folders/MathRoom.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_senior_back",
-    "path":"sprites/spr_npc_senior_back/spr_npc_senior_back.yy",
+    "name":"spr_mc_walkUp",
+    "path":"sprites/spr_mc_walkUp/spr_mc_walkUp.yy",
   },
   "spriteMaskId":null,
   "visible":true,
