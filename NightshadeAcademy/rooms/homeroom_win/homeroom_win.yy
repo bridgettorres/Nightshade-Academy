@@ -25,8 +25,8 @@
   ],
   "name":"homeroom_win",
   "parent":{
-    "name":"HomeRoom",
-    "path":"folders/HomeRoom.yy",
+    "name":"Endings",
+    "path":"folders/Endings.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
