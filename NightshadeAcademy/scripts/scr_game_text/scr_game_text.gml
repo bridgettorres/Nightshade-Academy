@@ -66,7 +66,19 @@ function scr_game_text(_text_id){
 		break;
 		
 		case "ice_4":
-			scr_text("The founder of nightshade academy... mmm I think it was ---insert name---");
+			scr_text("The founder of Nightshade Academy... Was it Anne Justice? No, I must be misremembering - it was Madame Guillard!");
+		break;
+		
+		case "ice_5":
+			scr_text("Ummm... All I know is that there are rumors that the headmistress was involded with the mob?");
+		break;
+		
+		case "ice_6":
+			scr_text("Why would I help you?");
+		break;
+		
+		case "ice_7":
+			scr_text("Remember, it's not just a suggestion; it's school policy. Class starts at 7:00 AM on the dot. Don't risk being tardy");
 		break;
 		
 		case "icebreaker_teacher":
@@ -87,19 +99,44 @@ function scr_game_text(_text_id){
 					scr_option("we can use our phones", "mc1 - yesphone");
 			break;
 				case "mc1 - nophone":
-					scr_text("CORRECT");
-					room_goto(homeroom_win);
-					audio_stop_sound(snd_badending)
-					audio_play_sound(snd_achievement, 1, true);
+					scr_text("Very Good! Next Question, What is the Headmistress's name?");
+						scr_option("Moira Rougue", "mc1 - wronghead");
+						scr_option("Madame Guillard", "mc1 - correcthead");
 					
 				break;
 				
 				case "mc1 - yesphone":
-					scr_text("IDIOT");
-					room_goto(homeroom_loss);
-					audio_stop_sound(snd_badending)
-					audio_play_sound(snd_loss, 1, true);
+					scr_text("We don't tolerate those who don't follow the rules at this school. Now, let's refocus. Can anyone tell me the name of our headmistress?");
+						scr_option("Moira Rougue", "mc1 - wronghead");
+						scr_option("Madame Guillard", "mc1 - correcthead");
 				break;
+				
+					case "mc1 - correcthead":
+						scr_text("CORRECT! Finally, did you catch anything interesting in the announcement or during the icebreaker?");
+							scr_option("yes! It really brought to my attention the fact that the art club is painting a mural", "mc1 - correctans");
+							scr_option("yes! I'm really interested in joining the volleyball team", "mc1 - correctans");
+					break;
+					
+					case "mc1 - wronghead":
+						scr_text("Idiot! We don't have time for distractions. Make sure you're paying attention. Now, tell me what grabbed your interest during the icebreaker or the announcements.");
+							scr_option("I found it interesting that the headmistress was involded with the mob", "mc1 - incorrectans");
+							scr_option("Um, yeah... I kinda wanna join the volleyball team after hearing the announcements.", "mc1 - correctans");
+					
+					break;
+					
+						case "mc1 - correctans":
+							scr_text("It seems you might be worthy of being part of Nightshade Academy, take this hall pass so you can explore and get familiar with the school.");
+							room_goto(homeroom_win);
+							audio_stop_sound(snd_badending)
+							audio_play_sound(snd_achievement, 1, false);
+						break;
+					
+						case "mc1 - incorrectans":
+							scr_text("Since you couldn't answer correctly, you'll face disciplinary actions. Get out of my class!");
+							room_goto(homeroom_loss);
+							audio_stop_sound(snd_badending)
+							audio_play_sound(snd_loss, 1, true);
+						break;
 				
 			
 		//----------------Chem-------------------//

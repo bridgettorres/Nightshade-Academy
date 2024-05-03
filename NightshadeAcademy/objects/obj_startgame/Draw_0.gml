@@ -1,1 +1,1 @@
-draw_text(310, 270, "Start");
+draw_text(297, 310, "Start");
