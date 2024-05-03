@@ -1,3 +1,3 @@
-target_x = 576;
-target_y = 149;
-target_rm = hallway1;
+target_x = 575;
+target_y = 154;
+target_rm = hallway_next;

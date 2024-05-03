@@ -1,3 +1,3 @@
-target_x = 64;
-target_y = 151;
-target_rm = hallway1;
+target_x = 63;
+target_y = 162;
+target_rm = hallway_chem;
