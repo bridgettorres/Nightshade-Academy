@@ -1,3 +1,3 @@
-target_x = 606;
-target_y = 163;
-target_rm = hallway2;
+target_x = 564;
+target_y = 195;
+target_rm = hallway_lunchEnglish;
