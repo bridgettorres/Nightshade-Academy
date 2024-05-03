@@ -201,6 +201,9 @@ function scr_game_text(_text_id){
 			scr_text("Math Teacher: I need everyone to find their seats!");
 		break;
 		
+		case "student_math":
+			scr_text("?: Head over to the english classroom whenever you get the chance, maybe after the questioning");
+		break;
 		//math questioning
 		case "math_questioning":
 			scr_text("Math Teacher: You! In the yellow hoodie, what is: 4+7-2+3+9-10?");
@@ -211,21 +214,19 @@ function scr_game_text(_text_id){
 		break;
 		
 			case "mc_incorrect - math":
-				scr_text("Heh, yeah I suppose I shouldn’t expect you to get that right.");
+				scr_text("Math Teacher: Heh, yeah I suppose I shouldn’t expect you to get that right.");
 					scr_option("I HAVE TO GO USE TO THE BATHROOOM", "mc_next - math");
 			break;
 			
 			case "mc_correct - math":
-				scr_text("Huh? Maybe all the raffle kids aren’t useless. Try this: (3^3/9+4*3+3)/8");
+				scr_text("Math Teacher: Huh? Maybe all the raffle kids aren’t useless. Try this: (3^3/9+4*3+3)/8");
 					scr_option("I HAVE TO GO USE TO THE BATHROOOM", "mc_next - math");
-                case "mc_chem - lunch":
+                case "mc_next - math":
                     //room_goto(insert hallway with english class);
                 break;
-
-
-
-
+				
 		//----------------Lunch-------------------//
+		
 		
 
 }
