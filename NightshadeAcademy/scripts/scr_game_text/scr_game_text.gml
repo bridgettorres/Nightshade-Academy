@@ -54,85 +54,85 @@ function scr_game_text(_text_id){
 		break;
 		//ice breaker
 		case "ice_1":
-			scr_text("Ummm… All I know is that there are rumors that the headmistress has killed people before? Don’t say that out loud though, I don’t think they’d like it.");
+			scr_text("Tania: Ummm… All I know is that there are rumors that the headmistress has killed people before? Don’t say that out loud though, I don’t think they’d like it.");
 		break;
 		
 		case "ice_2":
-			scr_text("Do you know about the graduation rate here? It’s 20 percent. Nobody knows where the people that don’t graduate go. Probably part of all the NDAs and stuff on the legal documents.");
+			scr_text("Mya: Do you know about the graduation rate here? It’s 20 percent. Nobody knows where the people that don’t graduate go. Probably part of all the NDAs and stuff on the legal documents.");
 		break;
 		
 		case "ice_3":
-			scr_text("I can’t believe they took my phone. They didn’t even let anyone know where the academy is located. Thanks to all the secrecy I can’t even send letters home.");
+			scr_text("Bri: I can’t believe they took my phone. They didn’t even let anyone know where the academy is located. Thanks to all the secrecy I can’t even send letters home.");
 		break;
 		
 		case "ice_4":
-			scr_text("The founder of Nightshade Academy... Was it Anne Justice? No, I must be misremembering - it was Madame Guillard!");
+			scr_text("Viki: The founder of Nightshade Academy... Was it Anne Justice? No, I must be misremembering - it was Madame Guillard!");
 		break;
 		
-		case "ice_5":
-			scr_text("Ummm... All I know is that there are rumors that the headmistress was involded with the mob?");
+		case "ice_5": 
+			scr_text("Cam: Ummm... All I know is that there are rumors that the headmistress was involded with the mob?");
 		break;
 		
 		case "ice_6":
-			scr_text("Why would I help you?");
+			scr_text("Teachers Pet: Why would I help you?");
 		break;
 		
 		case "ice_7":
-			scr_text("Remember, it's not just a suggestion; it's school policy. Class starts at 7:00 AM on the dot. Don't risk being tardy");
+			scr_text("Willow: Remember, it's not just a suggestion; it's school policy. Class starts at 7:00 AM on the dot. Don't risk being tardy");
 		break;
 		
 		case "icebreaker_teacher":
 			scr_text("Homeroom Teacher: Alright, student lets start the questioning");
-			scr_text("What is our schools graduation rate?")
+			scr_text("Homeroom Teacher: What is our schools graduation rate?")
 				scr_option("20 percent", "mc1 - 20");
 				scr_option("40 percent", "mc1 - 40");
 		break;
 			case "mc1 - 20":
-				scr_text("Good next question, what is our phone policy?");
+				scr_text("Homeroom Teacher: Good next question, what is our phone policy?");
 					scr_option("no phones allowed", "mc1 - nophone");
 					scr_option("we can use our phones", "mc1 - yesphone");
 			break;
 			
 			case "mc1 - 40":
-				scr_text("You clearly weren't listening... next question, what is our phone policy?");
+				scr_text("Homeroom Teacher: You clearly weren't listening... next question, what is our phone policy?");
 					scr_option("no phones allowed", "mc1 - nophone");
 					scr_option("we can use our phones", "mc1 - yesphone");
 			break;
 				case "mc1 - nophone":
-					scr_text("Very Good! Next Question, What is the Headmistress's name?");
+					scr_text("Homeroom Teacher: Very Good! Next Question, What is the Headmistress's name?");
 						scr_option("Moira Rougue", "mc1 - wronghead");
 						scr_option("Madame Guillard", "mc1 - correcthead");
 					
 				break;
 				
 				case "mc1 - yesphone":
-					scr_text("We don't tolerate those who don't follow the rules at this school. Now, let's refocus. Can anyone tell me the name of our headmistress?");
+					scr_text("Homeroom Teacher: We don't tolerate those who don't follow the rules at this school. Now, let's refocus. Can anyone tell me the name of our headmistress?");
 						scr_option("Moira Rougue", "mc1 - wronghead");
 						scr_option("Madame Guillard", "mc1 - correcthead");
 				break;
 				
 					case "mc1 - correcthead":
-						scr_text("CORRECT! Finally, did you catch anything interesting in the announcement or during the icebreaker?");
+						scr_text("Homeroom Teacher: CORRECT! Finally, did you catch anything interesting in the announcement or during the icebreaker?");
 							scr_option("yes! It really brought to my attention the fact that the art club is painting a mural", "mc1 - correctans");
 							scr_option("yes! I'm really interested in joining the volleyball team", "mc1 - correctans");
 					break;
 					
 					case "mc1 - wronghead":
-						scr_text("Idiot! We don't have time for distractions. Make sure you're paying attention. Now, tell me what grabbed your interest during the icebreaker or the announcements.");
+						scr_text("Homeroom Teacher: Idiot! We don't have time for distractions. Make sure you're paying attention. Now, tell me what grabbed your interest during the icebreaker or the announcements.");
 							scr_option("I found it interesting that the headmistress was involded with the mob", "mc1 - incorrectans");
 							scr_option("Um, yeah... I kinda wanna join the volleyball team after hearing the announcements.", "mc1 - correctans");
 					
 					break;
 					
 						case "mc1 - correctans":
-							scr_text("It seems you might be worthy of being part of Nightshade Academy, take this hall pass so you can explore and get familiar with the school.");
+							scr_text("Homeroom Teacher: It seems you might be worthy of being part of Nightshade Academy, take this hall pass so you can explore and get familiar with the school.");
 							room_goto(homeroom_win);
 							audio_stop_sound(snd_badending)
 							audio_play_sound(snd_achievement, 1, false);
 						break;
 					
 						case "mc1 - incorrectans":
-							scr_text("Since you couldn't answer correctly, you'll face disciplinary actions. Get out of my class!");
+							scr_text("Homeroom Teacher: Since you couldn't answer correctly, you'll face disciplinary actions. Get out of my class!");
 							room_goto(homeroom_loss);
 							audio_stop_sound(snd_badending)
 							audio_play_sound(snd_loss, 1, true);
@@ -140,21 +140,46 @@ function scr_game_text(_text_id){
 				
 			
 		//----------------Chem-------------------//
-		//chem
-		//math
-
-        //example
-        case "example":
-            scr_text("Good morning students, please sit down and listen to the announcements");
-                scr_option("yeah", "npc 1 - yes")
-                scr_option("yeah", "npc 1 - no")
+        case "cam_chem":
+            scr_text("Cam: I wanna blow something up today.");
         break;
-            case "npc 1 - no":
-                scr_text("MANNNN SCREW YOU");
+        
+        case "tania_chem":
+            scr_text("Tania: Agreed. Let’s look up some research articles online.");
+        break;
+        
+        case "willow_chem":
+            scr_text("Willow: Good idea. We can divide the work and meet up later to discuss.");
+        break;
+        
+        case "teacher_chem":
+            scr_text("Chem Teacher: Students please head towards your stations so we can start.");
+        break;
+        //chem questioning dialogue
+        case "teacher_chem_intruc":
+            scr_text("Chem Teacher: Alright, everyone, gather around. Today, we're delving into some serious chemistry. We're talking about something that could potentially save lives one day. We'll be concocting an antidote for an incredibly deadly poison gas. But listen up, folks, this isn't child's play. One wrong move in our combinations could leave us sick or worse, with burning eyes.");
+            scr_text("Which one should I use?");
+            scr_text("Chem Teacher: To make the proper antidote is difficult as you need to use the poison itself. The poison color is a primary color, when mixed with another primary color, the antidote turns green. Which vial do you choose?");
+                scr_option("Yellow + red = orange", "mc_chem - wrong");
+                scr_option("Yellow + blue = green", "mc_chem - correc");
+        break;
+            case "mc_chem - wrong":
+                scr_text("Chem Teacher: It's clear you need to pay attention some more, class dismissed!");
+                scr_option("(Head on over to Math)", "mc_chem - math");
             break;
-            case "npc 1 - yes":
-                scr_text("COOL");
-			break;
+            
+            case "mc_chem - correc":
+                scr_text("Chem Teacher: I'm truly impressed by your response, so much so that I'm delighted to dismiss you all early from my classroom.");
+                scr_option("(Head on over to lunch)", "mc_chem - lunch");
+
+            break;
+                case "mc_chem - math":
+                    //room_goto(insert hallway with math open);
+                break;
+                    
+                case "mc_chem - lunch":
+                    //room_goto(insert hallway with lunchroom open);
+                break;
 
 }
 }
