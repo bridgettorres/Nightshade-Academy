@@ -180,6 +180,54 @@ function scr_game_text(_text_id){
                 case "mc_chem - lunch":
                     //room_goto(insert hallway with lunchroom open);
                 break;
+		//----------------Math-------------------//
+		case "cam_math":
+            scr_text("Cam: You should join the mathletes. It can be fun.");
+        break;
+		
+		case "senior_math":
+			scr_text("Senior: You're taking this math class?");
+		break;
+		
+		case "viki_math":
+			scr_text("Viki: I like math!");
+		break;
+		
+		case "tania_math":
+			scr_text("Tania: I hate math!");
+		break;
+		
+		case "teacher_math":
+			scr_text("Math Teacher: I need everyone to find their seats!");
+		break;
+		
+		case "student_math":
+			scr_text("?: Head over to the english classroom whenever you get the chance, maybe after the questioning");
+		break;
+		//math questioning
+		case "math_questioning":
+			scr_text("Math Teacher: You! In the yellow hoodie, what is: 4+7-2+3+9-10?");
+			scr_text("Cam: 11")
+			scr_text("Math Teacher: Good! Raffle kid,  Now, what is: 2x6(2+1)+12/12");
+				scr_option("32", "mc_incorrect - math");
+				scr_option("37", "mc_correct - math");
+		break;
+		
+			case "mc_incorrect - math":
+				scr_text("Math Teacher: Heh, yeah I suppose I shouldn’t expect you to get that right.");
+					scr_option("I HAVE TO GO USE TO THE BATHROOOM", "mc_next - math");
+			break;
+			
+			case "mc_correct - math":
+				scr_text("Math Teacher: Huh? Maybe all the raffle kids aren’t useless. Try this: (3^3/9+4*3+3)/8");
+					scr_option("I HAVE TO GO USE TO THE BATHROOOM", "mc_next - math");
+                case "mc_next - math":
+                    //room_goto(insert hallway with english class);
+                break;
+				
+		//----------------Lunch-------------------//
+		
+		
 
 }
 }
