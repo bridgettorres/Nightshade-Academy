@@ -88,10 +88,17 @@ function scr_game_text(_text_id){
 			break;
 				case "mc1 - nophone":
 					scr_text("CORRECT");
+					room_goto(homeroom_win);
+					audio_stop_sound(snd_badending)
+					audio_play_sound(snd_achievement, 1, true);
+					
 				break;
 				
 				case "mc1 - yesphone":
 					scr_text("IDIOT");
+					room_goto(homeroom_loss);
+					audio_stop_sound(snd_badending)
+					audio_play_sound(snd_loss, 1, true);
 				break;
 				
 			
