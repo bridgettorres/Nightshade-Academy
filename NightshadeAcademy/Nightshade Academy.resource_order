@@ -282,6 +282,7 @@
     {"name":"Sprite138","order":8,"path":"sprites/Sprite138/Sprite138.yy",},
     {"name":"Sprite147","order":14,"path":"sprites/Sprite147/Sprite147.yy",},
     {"name":"Sprite148","order":15,"path":"sprites/Sprite148/Sprite148.yy",},
+    {"name":"Sprite149","order":7,"path":"sprites/Sprite149/Sprite149.yy",},
     {"name":"studentDesk","order":25,"path":"sprites/studentDesk/studentDesk.yy",},
     {"name":"teacher_chem","order":90,"path":"sprites/teacher_chem/teacher_chem.yy",},
     {"name":"teacher_english","order":91,"path":"sprites/teacher_english/teacher_english.yy",},
