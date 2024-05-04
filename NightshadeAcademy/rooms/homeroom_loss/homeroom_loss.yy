@@ -33,8 +33,8 @@
   ],
   "name":"homeroom_loss",
   "parent":{
-    "name":"HomeRoom",
-    "path":"folders/HomeRoom.yy",
+    "name":"Endings",
+    "path":"folders/Endings.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
