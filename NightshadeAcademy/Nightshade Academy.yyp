@@ -89,6 +89,7 @@
     {"id":{"name":"obj_hallpass","path":"objects/obj_hallpass/obj_hallpass.yy",},},
     {"id":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},},
     {"id":{"name":"obj_itemac","path":"objects/obj_itemac/obj_itemac.yy",},},
+    {"id":{"name":"obj_janitor","path":"objects/obj_janitor/obj_janitor.yy",},},
     {"id":{"name":"obj_labTable_long","path":"objects/obj_labTable_long/obj_labTable_long.yy",},},
     {"id":{"name":"obj_labTable_short","path":"objects/obj_labTable_short/obj_labTable_short.yy",},},
     {"id":{"name":"obj_labTable_start","path":"objects/obj_labTable_start/obj_labTable_start.yy",},},
