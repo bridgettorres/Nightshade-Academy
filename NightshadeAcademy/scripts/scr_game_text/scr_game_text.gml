@@ -221,7 +221,8 @@ function scr_game_text(_text_id){
 			case "mc_correct - math":
 				scr_text("Math Teacher: Huh? Maybe all the raffle kids aren’t useless. Try this: (3^3/9+4*3+3)/8");
 					scr_option("I HAVE TO GO USE TO THE BATHROOOM", "mc_next - englishmath");
-                
+            break;
+			
 				case "mc_next - englishmath":
                     room_goto(hallway_mathEnglish);
                 break;
@@ -275,7 +276,7 @@ function scr_game_text(_text_id){
 					
 			case "mc - eats":
 				room_goto(lunchroom_loss);
-				audio_stop_sound(snd_badending)
+				audio_stop_sound(snd_badending);
 				audio_play_sound(snd_achievement, 1, false);
 			break;
 					
@@ -288,9 +289,9 @@ function scr_game_text(_text_id){
 			scr_text("Hello sir, hands tray finished lunch");
 			scr_text("Janitor: I've been watching you. You're not like the other kids. You're genuine and not easily brainwashed");
             scr_text("Janitor: There's something you need to do. Head to the English classroom. Room 302. Tell no one. This is between us, understand?");
-				scr_option("sure...", "mc_next - english");
+				scr_option("sure...", "mc_next - lunchenglish");
         break;
-			case "mc_next - englishmath":
+			case "mc_next - lunchenglish":
 				room_goto(hallway_lunchEnglish);
             break;
 				
