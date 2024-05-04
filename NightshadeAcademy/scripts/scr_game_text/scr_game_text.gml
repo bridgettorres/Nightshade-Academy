@@ -277,7 +277,7 @@ function scr_game_text(_text_id){
 			case "mc - eats":
 				room_goto(lunchroom_loss);
 				audio_stop_sound(snd_badending);
-				audio_play_sound(snd_achievement, 1, false);
+				audio_play_sound(snd_loss, 1, true);
 			break;
 					
 			case "mc - throws":
@@ -288,14 +288,31 @@ function scr_game_text(_text_id){
 		case "janitor":
 			scr_text("Hello sir, hands tray finished lunch");
 			scr_text("Janitor: I've been watching you. You're not like the other kids. You're genuine and not easily brainwashed");
-            scr_text("Janitor: There's something you need to do. Head to the English classroom. Room 302. Tell no one. This is between us, understand?");
+            scr_text("Janitor: There's something you need to do. Head to the English classroom. Room 04. Tell no one. This is between us, understand?");
 				scr_option("sure...", "mc_next - lunchenglish");
         break;
 			case "mc_next - lunchenglish":
 				room_goto(hallway_lunchEnglish);
             break;
-				
+		//----------------English class-------------------//				
+        case "file":
+			scr_text("what's with that folder over there? It says Confidential on it. Should I open it? What could be inside? Maybe it's nothing important, but what if it's something serious? I don't want to get in trouble. But then again, they seemed trustworthy. What should I do?");
+            scr_option("(Open the folder)", "open");
+			scr_option("(Leave it alone)", "leave");
+        break;
+		
+        case "open":
+			room_goto(english_win);
+			audio_stop_sound(snd_badending)
+			audio_play_sound(snd_achievement, 1, false);
 
+		break;
+                    
+        case "leave":
+            room_goto(english_loss);
+			audio_stop_sound(snd_badending);
+			audio_play_sound(snd_loss, 1, true);
+        break;
 		
 
 }
