@@ -174,11 +174,11 @@ function scr_game_text(_text_id){
 
             break;
                 case "mc_chem - math":
-                    //room_goto(insert hallway with math open);
+                    room_goto(hallway_math);
                 break;
                     
                 case "mc_chem - lunch":
-                    //room_goto(insert hallway with lunchroom open);
+                    room_goto(hallway_lunch);
                 break;
 		//----------------Math-------------------//
 		case "cam_math":
@@ -215,18 +215,86 @@ function scr_game_text(_text_id){
 		
 			case "mc_incorrect - math":
 				scr_text("Math Teacher: Heh, yeah I suppose I shouldn’t expect you to get that right.");
-					scr_option("I HAVE TO GO USE TO THE BATHROOOM", "mc_next - math");
+					scr_option("I HAVE TO GO USE TO THE BATHROOOM", "mc_next - englishmath");
 			break;
 			
 			case "mc_correct - math":
 				scr_text("Math Teacher: Huh? Maybe all the raffle kids aren’t useless. Try this: (3^3/9+4*3+3)/8");
-					scr_option("I HAVE TO GO USE TO THE BATHROOOM", "mc_next - math");
-                case "mc_next - math":
-                    //room_goto(insert hallway with english class);
+					scr_option("I HAVE TO GO USE TO THE BATHROOOM", "mc_next - englishmath");
+                
+				case "mc_next - englishmath":
+                    room_goto(hallway_mathEnglish);
                 break;
 				
 		//----------------Lunch-------------------//
+		case "lunch_lady":
+            scr_text("Lunch Lady: You already grabbed food, do you not remember? Now, go away.");
+        break;
 		
+		case "tania_lunch":
+			scr_text("Tania: why does the rice taste funny?");
+		break;
+		
+		case "cam_lunch":
+			scr_text("Cam: I feel sick...");
+		break;
+		
+		case "willow_lunch":
+			scr_text("Willow: I love drinking Bone-Hurting Juice! Use code OUCHMYBONES for 15% on at checkout.");
+		break;
+		
+		case "bri_lunch":
+			scr_text("Bri: ZZZZZZ");
+		break;
+		
+		case "student_lunch":
+			scr_text("Student: I like food! It's comfy and easy to eat.");
+		break;
+		
+		case "senior_lunch":
+			scr_text("Senior: ...");
+		break;
+		
+		case "mya_lunch":
+			scr_text("Mya: ...");
+		break;
+		
+		case "viki_lunch":
+			scr_text("Viki: Why did you leave your food infront of me?");
+		break;
+		
+		case "pet_lunch":
+			scr_text("Teachers Pet: I gotta finish up my food quickly so I can go back to studying!");
+		break;
+		//ending
+		case "food":
+			scr_text("*stomach grumbles* I'm guessing this food here is mine...");
+				scr_option("*eat it*", "mc - eats");
+				scr_option("maybe I shouldn't since I've been hearing that students have been getting sick lately", "mc - throws");
+		break;
+					
+			case "mc - eats":
+				room_goto(lunchroom_loss);
+				audio_stop_sound(snd_badending)
+				audio_play_sound(snd_achievement, 1, false);
+			break;
+					
+			case "mc - throws":
+				scr_text("I'll just go hand it to the janitor to throw it out.");
+			break;
+		
+		//janitor interaction
+		case "janitor":
+			scr_text("Hello sir, hands tray finished lunch");
+			scr_text("Janitor: I've been watching you. You're not like the other kids. You're genuine and not easily brainwashed");
+            scr_text("Janitor: There's something you need to do. Head to the English classroom. Room 302. Tell no one. This is between us, understand?");
+				scr_option("sure...", "mc_next - english");
+        break;
+			case "mc_next - englishmath":
+				room_goto(hallway_lunchEnglish);
+            break;
+				
+
 		
 
 }
