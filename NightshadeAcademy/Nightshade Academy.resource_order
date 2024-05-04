@@ -70,6 +70,7 @@
     {"name":"obj_hallpass","order":12,"path":"objects/obj_hallpass/obj_hallpass.yy",},
     {"name":"obj_init","order":6,"path":"objects/obj_init/obj_init.yy",},
     {"name":"obj_itemac","order":20,"path":"objects/obj_itemac/obj_itemac.yy",},
+    {"name":"obj_janitor","order":64,"path":"objects/obj_janitor/obj_janitor.yy",},
     {"name":"obj_labTable_long","order":33,"path":"objects/obj_labTable_long/obj_labTable_long.yy",},
     {"name":"obj_labTable_short","order":34,"path":"objects/obj_labTable_short/obj_labTable_short.yy",},
     {"name":"obj_labTable_start","order":1,"path":"objects/obj_labTable_start/obj_labTable_start.yy",},
