@@ -133,6 +133,7 @@ function scr_game_text(_text_id){
 					
 						case "mc1 - incorrectans":
 							scr_text("Homeroom Teacher: Since you couldn't answer correctly, you'll face disciplinary actions. Get out of my class!");
+							instance_destroy(obj_mc)
 							room_goto(homeroom_loss);
 							audio_stop_sound(snd_badending)
 							audio_play_sound(snd_loss, 1, true);
@@ -275,6 +276,7 @@ function scr_game_text(_text_id){
 		break;
 					
 			case "mc - eats":
+				instance_destroy(obj_mc)
 				room_goto(lunchroom_loss);
 				audio_stop_sound(snd_badending);
 				audio_play_sound(snd_loss, 1, true);
@@ -302,6 +304,7 @@ function scr_game_text(_text_id){
         break;
 		
         case "open":
+			instance_destroy(obj_mc)
 			room_goto(english_win);
 			audio_stop_sound(snd_badending)
 			audio_play_sound(snd_achievement, 1, false);
@@ -309,6 +312,7 @@ function scr_game_text(_text_id){
 		break;
                     
         case "leave":
+			instance_destroy(obj_mc)
             room_goto(english_loss);
 			audio_stop_sound(snd_badending);
 			audio_play_sound(snd_loss, 1, true);
